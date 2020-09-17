@@ -8,11 +8,26 @@ After setting up and seeing your device when using the adb devices command, you 
 
 ## OnePlus
 In order: Red Cable Club, Cricket Scores, OnePlus Community, Card Package (for loyalty cards in shelf)  
->adb shell pm uninstall --user 0 com.oneplus.membership  
->adb shell pm uninstall --user 0 com.oneplus.opsports   
->adb shell pm uninstall --user 0 net.oneplus.forums  
->adb shell pm uninstall --user 0 com.oneplus.card
+```
+adb shell pm uninstall --user 0 com.oneplus.membership  
+adb shell pm uninstall --user 0 com.oneplus.opsports  
+adb shell pm uninstall --user 0 net.oneplus.forums  
+adb shell pm uninstall --user 0 com.oneplus.card
+```
 
 ## Google  
 In order: Google Pay (Indian only variant)  
->adb shell pm uninstall --user 0 com.google.android.apps.nbu.paisa.user
+```
+adb shell pm uninstall --user 0 com.google.android.apps.nbu.paisa.user
+```
+
+## Facebook  
+In order: Facebook, Facebook deleted data, Facebook System, Facebook Services, Updater for Facebook  
+*Please note that com.facebook.system and com.facebook.appmanager may be required for the Oculus store.
+```
+adb shell pm uninstall --user 0 com.facebook.katana  
+adb shell pm uninstall --user 0 com.facebook.orca  
+adb shell pm uninstall --user 0 com.facebook.system  
+adb shell pm uninstall --user 0 com.facebook.services  
+adb shell pm uninstall --user 0 com.facebook.appmanager 
+```
