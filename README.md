@@ -16,12 +16,12 @@ adb shell pm uninstall --user 0 com.oneplus.card
 ```
 
 ## Google  
-In order: Google Pay (Indian only variant), YouTube Music, YouTube
+In order: Google Pay (Indian only variant), YouTube Music, YouTube, Google Assistant
 ```
 adb shell pm uninstall --user 0 com.google.android.apps.nbu.paisa.user
 adb shell pm uninstall --user 0 com.google.android.apps.youtube.music
 adb shell pm uninstall --user 0 com.google.android.youtube
-
+adb shell pm uninstall --user 0 com.google.android.apps.googleassistant
 ```
 
 ## Facebook  
